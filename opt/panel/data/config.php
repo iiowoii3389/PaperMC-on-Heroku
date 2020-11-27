@@ -8,7 +8,7 @@ define('KT_SCREEN_NAME_PREFIX','mc.srv-');
 
 // Path to download server updates from (uses wget)
 define('KT_UPDATE_URL_MC','http://s3.amazonaws.com/MinecraftDownload/launcher/minecraft_server.jar');
-define('KT_UPDATE_URL_CB','http://dl.bukkit.org/latest-rb/craftbukkit.jar');
+define('KT_UPDATE_URL_CB','https://papermc.io/ci/job/Paper-1.16/lastSuccessfulBuild/artifact/paperclip.jar');
 
 // Screen commands (these should never be modified)
 define('KT_SCREEN_CMD_START','screen -dmS %s java -Xms%sM -Xmx%sM -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=45 -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=50 -XX:+AggressiveOpts -jar craftbukkit.jar nogui');
