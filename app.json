@@ -5,7 +5,7 @@
     "games",
     "minecraft"
   ],
-  "logo": "https://raw.githubusercontent.com/SirDankenstien/dank-survival/git-feature/logo.jpg",
+  "logo": "https://github.com/SirDankenstien/PaperMC-on-Heroku/raw/master/logo.jpg",
   "repository": "https://github.com/SirDankenstien/dank-survival",
   "env": {
     "MINECRAFT_EULA": {
