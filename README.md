@@ -31,7 +31,7 @@ Translated to English & Updated by Ren232.
 5. Done!
 
 <h1> Notice </h1>
-The total ram of a free dyno is limited to 512 mb.<br>
-When the ram usage is more than 512 mb, it will reset.<br>
+The total ram of a free dyno is limited to 535 mb.<br>
+When the ram usage is more than 535 mb, it will reset.<br>
 The file manager upload is only intended to be used for small plugins etc.<br>
 When a file takes more than 30 seconds to upload it will result in heroku blocking it.
