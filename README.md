@@ -1,5 +1,7 @@
 Translated to English & Updated by Ren232.
 
+~ updated to 1.16.4 by your boi sir.dank 🤟😤
+
 <h1> Features </h1>
 - You can access the file manager of the server.<br>
 - Console<br>- Admin panel with account registration<br>
