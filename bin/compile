@@ -69,14 +69,9 @@ for DEB in $(ls -1 $APT_CACHE_DIR/archives/*.deb); do
   dpkg -x $DEB $BUILD_DIR/.apt/
 done
 
-echo -n "-----> Installing ngrok... "
-curl --silent -o ngrok.zip -L "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip" | indent
-unzip ngrok.zip -d $BUILD_DIR/bin > /dev/null 2>&1
-echo "done"
 minecraft_url=${PAPER:-"https://papermc.io/ci/job/Paper-1.16/lastSuccessfulBuild/artifact/paperclip.jar"}
 echo "------> Installing PaperClipMC from $minecraft_url"
-curl -o papermc.jar -s -L $minecraft_url
-mv papermc.jar $BUILD_DIR/papermc.jar
+curl -o paper-1.16.4.jar -s -L $minecraft_url
 echo "done"
 
 if [ -n "${MINECRAFT_EULA:-""}" ]; then
@@ -91,6 +86,7 @@ mkdir -p $BUILD_DIR/bin
 [ ! -f $BUILD_DIR/uploader_second ]     && cp $OPT_DIR/uploader_second $BUILD_DIR/
 
 mv $OPT_DIR/panel $BUILD_DIR/panel
+mv paper-1.16.4.jar $BUILD_DIR/panel/serverbase/paper-1.16.4.jar
 mv $OPT_DIR/index.php $BUILD_DIR/index.php
 
 chmod +x $BUILD_DIR/dropbox
