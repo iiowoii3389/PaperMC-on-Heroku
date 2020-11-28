@@ -8,7 +8,7 @@ Translated to English & Updated by Ren232.
 - Trial users & Premium users<br>
 - Server Map (Dynmap required)<br>
 - Player list<br>
-- Version Selector<br>
+- Version Selector ( Only has 1.16.4 for now )<br>
 - User deletion<br>
 - Easy to install<br>
 - And more!
@@ -33,7 +33,7 @@ Translated to English & Updated by Ren232.
 5. Done!
 
 <h1> Server Optimizations </h1>
-1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.
+1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.<br>
 
 2. Open the paper.yml file and Locate the line that says ``max-entity-collisions`` and adjust the value to 2.
 
