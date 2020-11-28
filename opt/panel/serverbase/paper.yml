@@ -148,7 +148,7 @@ world-settings:
           per-player: false
           day: 5
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       max-chunk-section-index: 3
       update-radius: 2
