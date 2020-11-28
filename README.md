@@ -20,7 +20,6 @@ Translated to English & Updated by Ren232.
 <br>- A Ngrok account (https://dashboard.ngrok.com/)
 
 <h1> Setup </h1>
-
 1. Click on the button below, Give the app a name (This is also going to be your panel's subdomain), Paste your Dropbox API key, and click on deploy.<br>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -28,9 +27,16 @@ Translated to English & Updated by Ren232.
 
 3. Paste your ngrok key on the Dashboard page.
 
-4. Goto https://wakemydyno.com Enter the website and click on submit.
+4. Goto https://wakemydyno.com Enter the website [ https://APP_NAME.herokuapp.com/wakemydyno.txt ] and click on submit.
 
 5. Done!
+
+<h1> Server Optimizations </h1>
+1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.
+
+2. Open the paper.yml file and Locate the line that says ``max-entity-collisions`` and adjust the value to 2.
+
+3. Open teh server.properties file and Locate the line that says ``view-distance`` and lower it to 8, the lower the better.
 
 <h1> Notice </h1>
 The total ram of a free dyno is limited to 512 mb.<br>
