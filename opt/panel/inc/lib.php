@@ -547,10 +547,10 @@ log: ".$_POST['dir']."/ngrok.log \n
 	copy('serverbase/spigot.yml',$_POST['dir'].'/spigot.yml');
 	copy('serverbase/paper.yml',$_POST['dir'].'/paper.yml');
 	mkdir($_POST['dir'].'/plugins', 0777, true);
-	copy('serverbase/plugins/*',$_POST['dir'].'/plugins/');
-	//copy('serverbase/plugins/clearlagg-latest.jar',$_POST['dir'].'/plugins/clearlagg-latest.jar');
-	//copy('serverbase/plugins/villager-optimiser.jar',$_POST['dir'].'/plugins/villager-optimiser.jar');
-	//copy('serverbase/plugins/entitytrackerfixer.jar',$_POST['dir'].'/plugins/entitytrackerfixer.jar');
+	//copy('serverbase/plugins/*',$_POST['dir'].'/plugins/');
+	copy('serverbase/plugins/clearlagg-latest.jar',$_POST['dir'].'/plugins/clearlagg-latest.jar');
+	copy('serverbase/plugins/villager-optimiser.jar',$_POST['dir'].'/plugins/villager-optimiser.jar');
+	copy('serverbase/plugins/entitytrackerfixer.jar',$_POST['dir'].'/plugins/entitytrackerfixer.jar');
 	// Copy Spigot
 	if ($_POST['version'] == '1.10.2') {
 		copy('serverbase/spigot-1.10.2.jar',$_POST['dir'].'/spigot-1.10.2.jar');
