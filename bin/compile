@@ -87,6 +87,7 @@ mkdir -p $BUILD_DIR/bin
 
 mv $OPT_DIR/panel $BUILD_DIR/panel
 mv paper-1.16.4.jar $BUILD_DIR/panel/serverbase/paper-1.16.4.jar
+mv wakemydyno.txt $BUILD_DIR/panel/wakemydyno.txt
 mv $OPT_DIR/index.php $BUILD_DIR/index.php
 
 chmod +x $BUILD_DIR/dropbox
