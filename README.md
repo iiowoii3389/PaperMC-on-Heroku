@@ -33,6 +33,7 @@ Translated to English & Updated by Ren232.
 5. Done!
 
 <h1> Server Optimizations </h1>
+
 1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.
 
 2. Open the paper.yml file and Locate the line that says ``max-entity-collisions`` and adjust the value to 2.
@@ -40,6 +41,7 @@ Translated to English & Updated by Ren232.
 3. Open teh server.properties file and Locate the line that says ``view-distance`` and lower it to 8, the lower the better.
 
 <h1> Notice </h1>
+
 The total ram of a free dyno is limited to 512 mb.<br>
 When the ram usage is more than 512 mb, it will reset.<br>
 The file manager upload is only intended to be used for small plugins etc.<br>
