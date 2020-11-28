@@ -20,6 +20,7 @@ Translated to English & Updated by Ren232.
 <br>- A Ngrok account (https://dashboard.ngrok.com/)
 
 <h1> Setup </h1>
+
 1. Click on the button below, Give the app a name (This is also going to be your panel's subdomain), Paste your Dropbox API key, and click on deploy.<br>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
