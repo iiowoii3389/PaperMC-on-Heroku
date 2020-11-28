@@ -6,7 +6,7 @@
     "minecraft"
   ],
   "logo": "https://github.com/SirDankenstien/PaperMC-on-Heroku/raw/master/logo.jpg",
-  "repository": "https://github.com/SirDankenstien/dank-survival",
+  "repository": "https://github.com/SirDankenstien/PaperMC-on-Heroku",
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
