@@ -529,7 +529,7 @@ function user_add($user,$pass,$role,$home,$ram=512,$port=25565,$version) {
 	if (!file_exists($_POST['dir'])) {
     mkdir($_POST['dir'], 0777, true);
 	}
-	
+
 	// make a ngrok config file
 	file_put_contents($_POST['dir'] . '/ngrok.yml',
 "authtoken: 1234567890 \n
@@ -546,7 +546,7 @@ log: ".$_POST['dir']."/ngrok.log \n
 	copy('serverbase/bukkit.yml',$_POST['dir'].'/bukkit.yml');
 	copy('serverbase/spigot.yml',$_POST['dir'].'/spigot.yml');
 	copy('serverbase/paper.yml',$_POST['dir'].'/paper.yml');
-	mkdir -p $_POST['dir']/plugins
+	mkdir($_test['dir/plugins'], 0777, true);
 	copy('serverbase/plugins/clearlagg-latest.jar',$_POST['dir'].'/plugins/clearlagg-latest.jar');
 	copy('serverbase/plugins/villager-optimiser.jar',$_POST['dir'].'/plugins/villager-optimiser.jar');
 	copy('serverbase/plugins/entitytrackerfixer.jar',$_POST['dir'].'/plugins/entitytrackerfixer.jar');
