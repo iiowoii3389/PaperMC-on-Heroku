@@ -544,6 +544,7 @@ log: ".$_POST['dir']."/ngrok.log \n
 	copy('serverbase/server-icon.png',$_POST['dir'].'/server-icon.png');
 	copy('serverbase/server.properties',$_POST['dir'].'/server.properties');
 	copy('serverbase/bukkit.yml',$_POST['dir'].'/bukkit.yml');
+	copy('serverbase/spigot.yml',$_POST['dir'].'/spigot.yml');
 	copy('serverbase/paper.yml',$_POST['dir'].'/paper.yml');
 	copy('serverbase/plugins',$_POST['dir'].'/plugins');
 	// Copy Spigot
