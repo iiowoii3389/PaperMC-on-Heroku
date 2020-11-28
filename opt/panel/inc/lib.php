@@ -12,7 +12,7 @@
  */
 require_once 'data/config.php';
 require_once 'inc/mclogparse.inc.php';
-date_default_timezone_set('Asia/Bangkok');
+date_default_timezone_set('America/Chicago');
 /*
 8888888888 d8b 888                                     888
 888        Y8P 888                                     888
