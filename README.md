@@ -1,6 +1,6 @@
 Translated to English & Updated by Ren232.
 
-~ updated to 1.16.4 by your boi sir.dank 🤟😤
+~ updated to 1.16.4 and optimized to the max by your boi sir.dank 🤟😤
 
 <h1> Features </h1>
 - You can access the file manager of the server.<br>
@@ -34,11 +34,8 @@ Translated to English & Updated by Ren232.
 
 <h1> Server Optimizations </h1>
 
-1. Open the paper.yml and Locate the line that says `max-auto-save-chunks-per-tick` and adjust the value to `6`.
-
-2. Open the paper.yml file and Locate the line that says `max-entity-collisions` and adjust the value to `2`.
-
-3. Open teh server.properties file and Locate the line that says `view-distance` and lower it to 8, the lower the better.
+All optimizations have already been done!
+View them here - https://github.com/SirDankenstien/PaperMC-on-Heroku/tree/master/opt/panel/serverbase )
 
 <h1> Notice </h1>
 
