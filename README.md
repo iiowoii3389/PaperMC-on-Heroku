@@ -33,7 +33,7 @@ Translated to English & Updated by Ren232.
 5. Done!
 
 <h1> Server Optimizations </h1>
-1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.<br>
+1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.
 
 2. Open the paper.yml file and Locate the line that says ``max-entity-collisions`` and adjust the value to 2.
 
