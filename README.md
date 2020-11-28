@@ -34,11 +34,11 @@ Translated to English & Updated by Ren232.
 
 <h1> Server Optimizations </h1>
 
-1. Open the paper.yml and Locate the line that says ``max-auto-save-chunks-per-tick`` and adjust the value to 6.
+1. Open the paper.yml and Locate the line that says `max-auto-save-chunks-per-tick` and adjust the value to `6`.
 
-2. Open the paper.yml file and Locate the line that says ``max-entity-collisions`` and adjust the value to 2.
+2. Open the paper.yml file and Locate the line that says `max-entity-collisions` and adjust the value to `2`.
 
-3. Open teh server.properties file and Locate the line that says ``view-distance`` and lower it to 8, the lower the better.
+3. Open teh server.properties file and Locate the line that says `view-distance` and lower it to 8, the lower the better.
 
 <h1> Notice </h1>
 
