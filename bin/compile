@@ -48,7 +48,6 @@ echo "-----> Installing nano... "
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall nano | indent
 echo "-----> Installing DDClient... "
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall ddclient | indent
-sleep 3
 echo "-----> Almost there..."
 mkdir -p $BUILD_DIR/.apt/var/run/screen
 
