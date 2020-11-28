@@ -82,6 +82,10 @@ optimization_plugin=${URL:-"http://www.spigotmc.org/resources/entitytrackerfixer
 echo "------> Installing EntityTrackerFixer from $optimization_plugin"
 curl -o entitytrackerfixer.jar -s -L $optimization_plugin
 echo "done"
+dwn_dynmap=${URL:-"https://dev.bukkit.org/projects/dynmap/files/latest"}
+echo "------> Installing Dynmap from $dwn_dynmap"
+curl -o dynmap.jar -s -L $dwn_dynmap
+echo "done"
 minecraft_url=${PAPER:-"https://papermc.io/ci/job/Paper-1.16/lastSuccessfulBuild/artifact/paperclip.jar"}
 echo "------> Installing PaperClipMC from $minecraft_url"
 curl -o paper-1.16.4.jar -s -L $minecraft_url
@@ -103,6 +107,7 @@ mkdir -p $BUILD_DIR/panel/serverbase/plugins
 mv clearlagg-latest.jar $BUILD_DIR/panel/serverbase/plugins/clearlagg-latest.jar
 mv villager-optimiser.jar $BUILD_DIR/panel/serverbase/plugins/villager-optimiser.jar
 mv entitytrackerfixer.jar $BUILD_DIR/panel/serverbase/plugins/entitytrackerfixer.jar
+mv dynmap.jar $BUILD_DIR/panel/serverbase/plugins/dynmap.jar
 mv paper-1.16.4.jar $BUILD_DIR/panel/serverbase/paper-1.16.4.jar
 mv $OPT_DIR/index.php $BUILD_DIR/index.php
 
