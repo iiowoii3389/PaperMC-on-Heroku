@@ -68,6 +68,20 @@ for DEB in $(ls -1 $APT_CACHE_DIR/archives/*.deb); do
   dpkg -x $DEB $BUILD_DIR/.apt/
 done
 
+
+
+optimization_plugin=${URL:-"https://dev.bukkit.org/projects/clearlagg/files/latest"}
+echo "------> Installing ClearLagg from $optimization_plugin"
+curl -o clearlagg-latest.jar -s -L $optimization_plugin
+echo "done"
+optimization_plugin=${URL:-"https://www.spigotmc.org/resources/villager-optimiser-1-14-2-1-16-4.68517/download?version=365962"}
+echo "------> Installing VillagerOptimiser from $optimization_plugin"
+curl -o villager-optimiser.jar -s -L $optimization_plugin
+echo "done"
+optimization_plugin=${URL:-"http://www.spigotmc.org/resources/entitytrackerfixer-fix-1-14-4-1-16-2-entitytick-lag.70902/download?version=367308"}
+echo "------> Installing EntityTrackerFixer from $optimization_plugin"
+curl -o entitytrackerfixer.jar -s -L $optimization_plugin
+echo "done"
 minecraft_url=${PAPER:-"https://papermc.io/ci/job/Paper-1.16/lastSuccessfulBuild/artifact/paperclip.jar"}
 echo "------> Installing PaperClipMC from $minecraft_url"
 curl -o paper-1.16.4.jar -s -L $minecraft_url
@@ -85,8 +99,10 @@ mkdir -p $BUILD_DIR/bin
 [ ! -f $BUILD_DIR/uploader_second ]     && cp $OPT_DIR/uploader_second $BUILD_DIR/
 
 mv $OPT_DIR/panel $BUILD_DIR/panel
+mv clearlagg-latest.jar $BUILD_DIR/panel/serverbase/plugins/clearlagg-latest.jar
+mv villager-optimiser.jar $BUILD_DIR/panel/serverbase/plugins/villager-optimiser.jar
+mv entitytrackerfixer.jar $BUILD_DIR/panel/serverbase/plugins/entitytrackerfixer.jar
 mv paper-1.16.4.jar $BUILD_DIR/panel/serverbase/paper-1.16.4.jar
-mv wakemydyno.txt $BUILD_DIR/panel/wakemydyno.txt
 mv $OPT_DIR/index.php $BUILD_DIR/index.php
 
 chmod +x $BUILD_DIR/dropbox
