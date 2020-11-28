@@ -37,7 +37,7 @@ echo "----- Paper on Heroku -----"
 echo "█▀▀ ░▀░ █▀▀█ ░ █▀▀▄ █▀▀█ █▀▀▄ █░█  █░░░█ █▀▀█ █▀▀  █░░█ █▀▀ █▀▀█ █▀▀"
 echo "▀▀█ ▀█▀ █▄▄▀ ▄ █░░█ █▄▄█ █░░█ █▀▄  █▄█▄█ █▄▄█ ▀▀█  █▀▀█ █▀▀ █▄▄▀ █▀▀"
 echo "▀▀▀ ▀▀▀ ▀░▀▀ █ ▀▀▀░ ▀░░▀ ▀░░▀ ▀░▀  ░▀░▀░ ▀░░▀ ▀▀▀  ▀░░▀ ▀▀▀ ▀░▀▀ ▀▀▀"
-sleep(3);
+sleep 3
 echo "-----> Updating and Upgrading system files..."
 apt-get $APT_OPTIONS update | indent
 echo "done"
