@@ -1,6 +1,6 @@
 {
   "server": {
-    "name": "DankSurvival",
+    "name": "PaperHeroku",
     "public_ip": "127.0.0.1"
   },
   "jar_updates": [
