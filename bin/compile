@@ -99,6 +99,7 @@ mkdir -p $BUILD_DIR/bin
 [ ! -f $BUILD_DIR/uploader_second ]     && cp $OPT_DIR/uploader_second $BUILD_DIR/
 
 mv $OPT_DIR/panel $BUILD_DIR/panel
+mkdir -p $BUILD_DIR/panel/serverbase/plugins
 mv clearlagg-latest.jar $BUILD_DIR/panel/serverbase/plugins/clearlagg-latest.jar
 mv villager-optimiser.jar $BUILD_DIR/panel/serverbase/plugins/villager-optimiser.jar
 mv entitytrackerfixer.jar $BUILD_DIR/panel/serverbase/plugins/entitytrackerfixer.jar
