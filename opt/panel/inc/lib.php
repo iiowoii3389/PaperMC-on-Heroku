@@ -540,8 +540,13 @@ log: ".$_POST['dir']."/ngrok.log \n
 ");
 	// Accept eula
 	file_put_contents($_POST['dir'].'/eula.txt','eula=TRUE');
-	// Copy spigot
+	// Copy serverbase stuff
 	copy('serverbase/server-icon.png',$_POST['dir'].'/server-icon.png');
+	copy('serverbase/server.properties',$_POST['dir'].'/server.properties');
+	copy('serverbase/bukkit.yml',$_POST['dir'].'/bukkit.yml');
+	copy('serverbase/paper.yml',$_POST['dir'].'/paper.yml');
+	copy('serverbase/plugins',$_POST['dir'].'/plugins');
+	// Copy Spigot
 	if ($_POST['version'] == '1.10.2') {
 		copy('serverbase/spigot-1.10.2.jar',$_POST['dir'].'/spigot-1.10.2.jar');
 	} else if ($_POST['version'] == '1.11.2') {
