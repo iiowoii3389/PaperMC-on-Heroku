@@ -28,7 +28,7 @@ Translated to English & Updated by Ren232.
 
 3. Paste your ngrok key on the Dashboard page.
 
-4. Go to https://wakemydyno.com Enter the website [ https://APP_NAME.herokuapp.com/wakemydyno.txt ] and click on submit. Optional: https://kaffeine.herokuapp.com/
+4. Go to https://wakemydyno.com Enter the website [ https://APP_NAME.herokuapp.com/wakemydyno.txt ] and click on submit.<br>Optional: https://kaffeine.herokuapp.com/
 
 5. Done!
 
