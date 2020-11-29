@@ -1,6 +1,7 @@
 Translated to English & Updated by Ren232.
 
 ~ updated to 1.16.4 and optimized to the max by your boi sir.dank 🤟😤
+---> Ps its really bad on heroku
 
 <h1> Features </h1>
 - You can access the file manager of the server.<br>
