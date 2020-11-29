@@ -44,8 +44,8 @@ settings:
     online-mode: false
     secret: ''
   watchdog:
-    early-warning-every: 5000
-    early-warning-delay: 10000
+    early-warning-every: 50000
+    early-warning-delay: 100000
   book-size:
     page-max: 2560
     total-multiplier: 0.98
