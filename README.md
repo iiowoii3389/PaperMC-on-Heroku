@@ -45,3 +45,7 @@ The total ram of a free dyno is limited to 512 mb.<br>
 When the ram usage is more than 512 mb, it will reset.<br>
 The file manager upload is only intended to be used for small plugins etc.<br>
 When a file takes more than 30 seconds to upload it will result in heroku blocking it.
+
+<h1> Testing </h1>
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FSirDankenstien%2FPaperMC-on-Heroku)
