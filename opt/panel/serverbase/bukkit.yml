@@ -17,15 +17,15 @@ settings:
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
-  plugin-profiling: false
+  plugin-profiling: true
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
-  monsters: 50
-  animals: 8
+  monsters: 40
+  animals: 40
   water-animals: 10
   water-ambient: 15
   ambient: 10
