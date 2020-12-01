@@ -37,7 +37,7 @@ Translated to English & Updated by Ren232.
 
 All optimizations have already been done!
 
-View them here - https://github.com/SirDankenstien/PaperMC-on-Heroku/tree/master/opt/panel/serverbase )
+View them here - https://github.com/SirDankenstien/PaperMC-on-Heroku/tree/master/opt/panel/serverbase
 
 <h1> Notice </h1>
 
