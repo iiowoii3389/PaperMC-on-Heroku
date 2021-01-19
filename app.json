@@ -11,18 +11,18 @@
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
       "value": "true"
-	  "required": true
+      "required": true
     },
-	"MINECRAFT_VERSION": {
+    "MINECRAFT_VERSION": {
       "description": "Minecraft Paperclip Version, Example: 1.16.4",
       "value": "1.16.4"
-	  "required": true
+      "required": true
     },
     "NGROK_API_TOKEN": {
       "description": "Your personal ngrok API token",
       "required": true
     },
-	"DROPBOX_API_TOKEN": {
+    "DROPBOX_API_TOKEN": {
       "description": "Your personal dropbox API token ( Go to https://www.dropbox.com/developers/apps , Click on create app, Select Dropbox API, Select App folder, Name the app & create it, Click on the app, Go to Generated access token, Click on Generate and Copy the key ) ",
       "required": false
     },
