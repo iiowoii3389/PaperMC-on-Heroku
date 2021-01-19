@@ -10,7 +10,7 @@
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
-      "value": "true"
+      "value": "true",
       "required": true
     },
     "MINECRAFT_VERSION": {
