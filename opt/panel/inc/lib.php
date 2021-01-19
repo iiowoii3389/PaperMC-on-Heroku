@@ -548,32 +548,10 @@ log: ".$_POST['dir']."/ngrok.log \n
 	copy('serverbase/paper.yml',$_POST['dir'].'/paper.yml');
 	mkdir($_POST['dir'].'/plugins', 0777, true);
 	//copy('serverbase/plugins/*',$_POST['dir'].'/plugins/');
-	copy('serverbase/plugins/clearlagg-latest.jar',$_POST['dir'].'/plugins/clearlagg-latest.jar');
-	copy('serverbase/plugins/villager-optimiser.jar',$_POST['dir'].'/plugins/villager-optimiser.jar');
-	copy('serverbase/plugins/entitytrackerfixer.jar',$_POST['dir'].'/plugins/entitytrackerfixer.jar');
+	copy('serverbase/plugins/clearlagg.jar',$_POST['dir'].'/plugins/clearlagg.jar');
 	// Copy Spigot
-	if ($_POST['version'] == '1.10.2') {
-		copy('serverbase/spigot-1.10.2.jar',$_POST['dir'].'/spigot-1.10.2.jar');
-	} else if ($_POST['version'] == '1.11.2') {
-		copy('serverbase/spigot-1.11.2.jar',$_POST['dir'].'/spigot-1.11.2.jar');
-	} else if ($_POST['version'] == '1.12.2') {
-		copy('serverbase/spigot-1.12.2.jar',$_POST['dir'].'/spigot-1.12.2.jar');
-	} else if ($_POST['version'] == '1.14.4') {
-		copy('serverbase/spigot-1.14.4.jar',$_POST['dir'].'/spigot-1.14.4.jar');
-	} else if ($_POST['version'] == '1.15.2') {
-		copy('serverbase/spigot-1.15.2.jar',$_POST['dir'].'/spigot-1.15.2.jar');
-	} else if ($_POST['version'] == '1.16.4') {
-		copy('serverbase/paper-1.16.4.jar',$_POST['dir'].'/paper-1.16.4.jar');
-	} else if ($_POST['version'] == '1.9.4') {
-		copy('serverbase/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar',$_POST['dir'].'/spigot-1.9.4.jar');
-	} else if ($_POST['version'] == '1.8.8') {
-		copy('serverbase/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar',$_POST['dir'].'/spigot-1.8.8.jar');
-	} else if ($_POST['version'] == '1.7.10') {
-		copy('serverbase/spigot-1.7.10-SNAPSHOT-b1657.jar',$_POST['dir'].'/spigot-1.7.10.jar');
-	} else if ($_POST['version'] == 'BC') {
-		copy('serverbase/BungeeCord.jar',$_POST['dir'].'/BungeeCord.jar');
-	}
-		
+	copy('serverbase/paper.jar',$_POST['dir'].'/paper.jar');
+
 }
 
 // Delete a user
