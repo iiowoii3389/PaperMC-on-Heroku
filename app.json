@@ -14,7 +14,7 @@
       "required": true
     },
     "MINECRAFT_VERSION": {
-      "description": "Minecraft Paperclip Version, Example: 1.16.4",
+      "description": "Minecraft Paperclip Version",
       "value": "1.16.4",
       "required": true
     },
