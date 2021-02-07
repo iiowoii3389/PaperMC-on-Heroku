@@ -1,6 +1,7 @@
 Translated to English & Updated by Ren232.
 
-~ updated to 1.16.4 and optimized to the max by your boi sir.dank 🤟😤<br>
+~ updated and optimized to the max by your boi sir.dank 🤟😤<br>
+~ you can now use any minecraft version (as long as its released on papermc.io)
 ---> Ps its really bad on heroku
 
 <h1> Features </h1>
