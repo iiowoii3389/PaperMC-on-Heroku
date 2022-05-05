@@ -5,8 +5,8 @@
     "games",
     "minecraft"
   ],
-  "logo": "https://github.com/SirDankenstien/PaperMC-on-Heroku/raw/master/logo.jpg",
-  "repository": "https://github.com/SirDankenstien/PaperMC-on-Heroku",
+  "logo": "https://github.com/iiowoii/PaperMC-on-Heroku/raw/master/logo.jpg",
+  "repository": "https://github.com/iiowoii/PaperMC-on-Heroku",
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
@@ -40,7 +40,7 @@
       "url": "heroku/jvm"
     },
     {
-      "url": "https://github.com/SirDankenstien/PaperMC-on-Heroku"
+      "url": "https://github.com/iiowoii/PaperMC-on-Heroku"
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-php"
